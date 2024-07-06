@@ -1,0 +1,31 @@
+.container {
+    padding: 20px;
+  }
+  
+  .tile-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .tile-content:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .icon-wrapper {
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+  }
+  
+  .tile-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  

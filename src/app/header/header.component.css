@@ -1,0 +1,11 @@
+.custom-toolbar {
+    height: 60px; /* Adjust height as needed */
+    line-height: 60px; /* Vertical alignment */
+  }
+  
+  .toolbar-text {
+    font-size: 1.5rem; /* Increase font size */
+    font-weight: bold; /* Bold font */
+    margin-left: 20px; /* Add some margin for better spacing */
+  }
+  @import '~@angular/material/prebuilt-themes/indigo-pink.css';
